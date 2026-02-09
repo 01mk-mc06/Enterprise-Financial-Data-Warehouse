@@ -9,6 +9,7 @@ Bank CSVs: vendor names abbreviated differently each month, FX rates at differen
 Payroll system: NULL department assignments, employees moved mid-month, retroactive salary adjustments
 
 Bronze Layer: Raw ingestion preserving all anomalies
+
 Silver Layer - Cleaned & Normalized (10 tables):
 
 dim_chart_of_accounts - 5 level hierarchy, codes changed 2x during year without mapping table
