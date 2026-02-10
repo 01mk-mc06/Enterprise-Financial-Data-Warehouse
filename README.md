@@ -72,7 +72,7 @@ Built production-grade Enterprise Financial Data Warehouse using Azure cloud sta
 - Transformation verification
 
 #### Roadblocks:
-- **Unity Catalog storage** → Created custom catalog with managed location: `abfss://financial-warehouse@financialwarehouse.dfs.core.windows.net/bronze/catalogs/financial_dwh`
+- **Unity Catalog storage** → Created custom catalog with managed location: `abfss://******************`
 - **DBFS root disabled** → Used Unity Catalog managed tables with `saveAsTable()` instead of external paths
 - **Storage authentication** → Unity Catalog handles authentication automatically with external storage
 
